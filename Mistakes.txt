@@ -1,0 +1,19 @@
+Mistakes
+
+excercise7
+==========
+mistake on line 21 missed out one variable in list of variables - caught by looking at output
+mistake on line 2 wrote "It's" instead of "Its" in print statement - caught by back read
+
+excercise8
+==========
+mistake on line 11 misspelling in print line "i" instead of "I"
+
+excercis9
+=========
+made a mistake on line 6, mistyped "," seperator as "."
+
+excercise10
+===========
+not found any mistakes for this excercise
+
