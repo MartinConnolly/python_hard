@@ -1,0 +1,60 @@
+List of python symbols
+======================
+
+print   print           prints out what ever follows
+""      doublequotes    used to encapsulate text string
+''      singlequotes    used to encapsulate text string
+a + b   plus            adds a and b
+a - b   minus           subtracts b from a
+a / b   slash           divides a by b
+a * b   asterisk        multiplies a and b
+a % b   percent         the remainder of a divided by b
+a < b   less-than       less than
+a > b   greater-than    greater than
+a <= b  less-than-equal less than or equal to
+a >= b  greater-than-equal  greater than or equal to
+%s      string formatter    include in text string to include variable value
+%d      digit formatter     include in text string to include variable value
+%r      raw formatter       include in text string ot include raw variable value
+% var   formatter           used to assign variable names to formatter
+"""     3 doublequotes      used to start and end a text block over multiple lines
+raw_input() raw input   takes a value that the user inputs during execution
+def     def             defines a function (see Functions checklist.txt)
+return  return          tells function what to return
+
+==================
+
+from xxx import yyy     from xxx package import the yyy
+sys                     sys package
+os.path                 os.path package
+argv                    argument variable (from sys)
+exists                  check if a file exists (from os.path)
+script                  name of python program
+open()                  open a file
+open(filename, 'w')     opens a file called filename in write mode (default is read only)
+.read()                 reads the contents of an already open file
+.close()                closes an already open file
+.readline()             Reads just one line of text
+.truncate()             Empties an already open file
+.write(stuff)           writes stuff to already open file
+
+
+
+Escape sequences
+================
+
+\\      Backslash
+\'      Single quote
+\"      Double quote
+\a      ASCII bell(BEL)
+\b      ASCII backspace(BS)
+\f      ASCII formfeed(FF)
+\n      ASCII linefeed(LF)
+\N{name}    Character named name in the Unicode database (unicode only)
+\r      ASCII carriage return(CR)
+\t      ASCII horizontal tab(TAB)
+\uxxxx  Character with 16-bit hex value xxxx(unicode only)
+\Uxxxxxxxx Character with 32-bit hex value xxxxxxxx(unicode only)
+\v      ASCII vertical tab(VT)
+\ooo    Character with octal value oo
+\xhh    Character with hex value hh
